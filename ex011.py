@@ -1,3 +1,6 @@
+#Exercício Python 11: Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2 metros quadrados.
+
+
 base_parede = float(input("Digite a largura da parede a ser pintada: "))
 altura_parede = float(input("Digite a altura da parede a ser pintada: "))
 
