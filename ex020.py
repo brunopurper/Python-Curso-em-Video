@@ -4,5 +4,6 @@ n2 =str(input("Segundo Aluno: "))
 n3 =str(input("Terceiro Aluno: "))
 n4 =str(input("Quarto Aluno: "))
 lista = [n1, n2, n3, n4]
-escolhido = random.choice(lista)
-print(f"O aluno escolhido aleatoriamente foi {escolhido} ")
+random.shuffle(lista)
+print("A ordem da apresentação sera: ")
+print(lista)
